@@ -175,3 +175,39 @@ git remote remove origin
 git remote add origin http://github.com/SukeshBoinpally/Kotlin.git
 git push origin --all
 git push origin --all
+cd /root/.git/
+cd ..
+rm -rf .git
+ls -lrth
+git --version
+git config --list
+git init
+git status
+git commit -a -m "1st commit"
+git add .
+git status
+git commit -m "1st commit"
+git status
+git remote add origin https://github.com/SukeshBoinpally/Kotlin.git
+git remote -v
+git remote show origin
+git branch
+git clone https://github.com/Baeldung/kotlin-tutorials.git
+cd /root/.git/
+ls -lrth
+cd ..
+ls -lrth
+mv kotlin-tutorials /root/.git/
+cd .git/
+ls -lrth
+cd kotlin-tutorials/
+ls -lrth
+rm -rf kotlin-*
+ls -lrth
+rm -rf core-kotlin-c*
+ls -lrth
+rm -rf machine-learning jee-kotlin
+clear
+ls -lrth
+git status
+git commit -a
